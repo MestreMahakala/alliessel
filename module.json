@@ -51,4 +51,9 @@
       "verified": "10.291",
       "maximum": "10"
     }
+    },
+    "url": "https://github.com/MestreMahakala/alliessel",
+    "manifest": "https://raw.githubusercontent.com/MestreMahakala/alliessel/main/module.json",
+    "download": "https://github.com/MestreMahakala/alliessel/archive/refs/heads/main.zip"
+    
 }
