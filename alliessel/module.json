@@ -1,0 +1,54 @@
+{
+  "id": "alliessel",
+  "title": "Recursos Alliessel",
+  "description": "Um módulo feito para a comunidade Alliessel com a finalidade de otimizar e melhorar a experiência de mestres e jogadores. Qualquer problema, falar com Eduardo Mahakala.",
+  "authors": [
+    {
+    "name": "Mestre Mahakala"
+    }
+    ],
+   "packs": [
+    {
+      "name": "marcas-de-alliessel",
+      "label": "Marcas de Alliessel",
+      "path": "packs/marcas-de-alliessel.db",
+      "type": "Item",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+     }    
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.0.3"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dfreds-convenient-effects",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility":{}
+      }
+    ] 
+  },
+    "compatibility": {
+      "minimum": "10.286",
+      "verified": "10.291",
+      "maximum": "10"
+    }
+}
