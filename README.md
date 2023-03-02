@@ -17,6 +17,9 @@ A única exceção é a Marca da Presença que precisa do módulo "DFreds Conven
 
 **Marca do Vigor** Está acrescentando mais 1 de vida por nível do personagem.
 
+
 **Porjetos futuros**
+
+
 Pretendo automatizar a **Marca da União** e sua invocação. A marca do intelecto eu não vejo necessidade de automatização, mas se alguém tiver alguma ideia ou necessidade é só me contactar.
 
