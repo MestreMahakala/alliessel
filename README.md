@@ -8,9 +8,13 @@ Todas as marcas funcionam normalmente bastando instalar os módulo "Mid QOL" e "
 A única exceção é a Marca da Presença que precisa do módulo "DFreds Convenient Effects" e vou ensinar a configurar mais abaixo.
 
 **Lista de automatização das marcas:
+
 **Marca da agilidade** está concedendo +10 de movimento automáticamente.
+
 **Marca da presença** concede o bônus de rolagem para todos que o personagem conceder, sendo perguntado toda rolagem se a pessoa vai querer usar e também retirando o bônus após usar o bônus.
+
 **Marca do colosso** Todos os ataques corpo-a-corpo estão concedendo +1d4 de dano passivamente.
+
 **Marca do Vigor** Está acrescentando mais 1 de vida por nível do personagem.
 
 **Porjetos futuros**
