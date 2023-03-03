@@ -1,0 +1,866 @@
+{
+  "name": "Custom Convenient Effects",
+  "type": "consumable",
+  "img": "modules/dfreds-convenient-effects/images/magic-palm.svg",
+  "effects": [
+    {
+      "_id": "cBOsuLgm7PWFj3Sn",
+      "changes": [
+        {
+          "key": "ATL.light.dim",
+          "mode": 5,
+          "value": "0",
+          "priority": 5
+        },
+        {
+          "key": "ATL.light.bright",
+          "mode": 5,
+          "value": "0",
+          "priority": 5
+        },
+        {
+          "key": "ATL.light.animation",
+          "mode": 5,
+          "value": "{ \"type\":\"none\"}",
+          "priority": 5
+        },
+        {
+          "key": "ATCV.blinded",
+          "mode": 0,
+          "value": "0",
+          "priority": 5
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47264274102,
+        "startRound": 0,
+        "startTurn": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null
+      },
+      "icon": "modules/conditional-visibility/icons/ae/affliction_24.jpg",
+      "label": "Blinded (CV)",
+      "origin": "Item.9lFZbFDeSg0mG8kY",
+      "tint": null,
+      "transfer": false,
+      "flags": {
+        "core": {
+          "overlay": false
+        },
+        "isConvenient": true,
+        "convenientDescription": "A blinded creature can't see and automatically fails any ability check that requires sight.<br>Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.",
+        "dae": {
+          "stackable": false,
+          "specialDuration": [],
+          "transfer": true
+        },
+        "isCustomConvenient": true
+      }
+    },
+    {
+      "_id": "LCMKqGDvgHQ3Deih",
+      "changes": [
+        {
+          "key": "system.attributes.senses.blindsight",
+          "mode": 4,
+          "value": "data.attributes.senses.blindsight",
+          "priority": 5
+        },
+        {
+          "key": "ATCV.blindsight",
+          "mode": 0,
+          "value": "0",
+          "priority": 5
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47264274102,
+        "startRound": 0,
+        "startTurn": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null
+      },
+      "icon": "modules/conditional-visibility/icons/ae/green_18.jpg",
+      "label": "Blind Sight (CV)",
+      "origin": "Item.9lFZbFDeSg0mG8kY",
+      "tint": null,
+      "transfer": false,
+      "flags": {
+        "core": {
+          "overlay": false
+        },
+        "isConvenient": true,
+        "convenientDescription": "A monster with blindsight can perceive its surroundings without relying on sight, within a specific radius.<br>Creatures without eyes, such as grimlocks and gray oozes, typically have this special sense, as do creatures with echolocation or heightened senses, such as bats and true dragons.<br>If a monster is naturally blind, it has a parenthetical note to this effect, indicating that the radius of its blindsight defines the maximum range of its perception.",
+        "dae": {
+          "stackable": false,
+          "specialDuration": [],
+          "transfer": true
+        },
+        "isCustomConvenient": true
+      }
+    },
+    {
+      "_id": "b1BDW6fgvQWWvcR3",
+      "changes": [
+        {
+          "key": "system.attributes.senses.darkvision",
+          "mode": 4,
+          "value": "data.attributes.senses.darkvision",
+          "priority": 5
+        },
+        {
+          "key": "ATL.light.dim",
+          "mode": 4,
+          "value": "0",
+          "priority": 5
+        },
+        {
+          "key": "ATCV.darkvision",
+          "mode": 0,
+          "value": "0",
+          "priority": 5
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47264274102,
+        "startRound": 0,
+        "startTurn": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null
+      },
+      "icon": "modules/conditional-visibility/icons/ae/evil-eye-red-1.jpg",
+      "label": "Darkvision (CV)",
+      "origin": "Item.9lFZbFDeSg0mG8kY",
+      "tint": null,
+      "transfer": false,
+      "flags": {
+        "core": {
+          "overlay": false
+        },
+        "isConvenient": true,
+        "convenientDescription": "A monster with Darkvision can see in the dark within a specific radius. The monster can see in dim light within the radius as if it were bright light, and in Darkness as if it were dim light. The monster can't discern color in Darkness, only Shades of Gray. Many Creatures that live Underground have this Special sense.",
+        "dae": {
+          "stackable": false,
+          "specialDuration": [],
+          "transfer": true
+        },
+        "isCustomConvenient": true
+      }
+    },
+    {
+      "_id": "B7fVv0osnWhqSYZc",
+      "changes": [
+        {
+          "key": "system.attributes.senses.devilssight",
+          "mode": 4,
+          "value": "data.attributes.senses.devilssight",
+          "priority": 5
+        },
+        {
+          "key": "ATCV.devilssight",
+          "mode": 0,
+          "value": "0",
+          "priority": 5
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47264274102,
+        "startRound": 0,
+        "startTurn": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null
+      },
+      "icon": "modules/conditional-visibility/icons/ae/blue_17.jpg",
+      "label": "Devil's sight (CV)",
+      "origin": "Item.9lFZbFDeSg0mG8kY",
+      "tint": null,
+      "transfer": false,
+      "flags": {
+        "core": {
+          "overlay": false
+        },
+        "isConvenient": true,
+        "convenientDescription": "You can see normally in darkness, both magical and nonmagical, to a certain distance.",
+        "dae": {
+          "stackable": false,
+          "specialDuration": [],
+          "transfer": true
+        },
+        "isCustomConvenient": true
+      }
+    },
+    {
+      "_id": "U9FIZPvRCVEjhgeK",
+      "changes": [
+        {
+          "key": "system.attributes.senses.seeinvisible",
+          "mode": 4,
+          "value": "data.attributes.senses.seeinvisible",
+          "priority": 5
+        },
+        {
+          "key": "ATCV.seeinvisible",
+          "mode": 0,
+          "value": "0",
+          "priority": 5
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47264274102,
+        "startRound": 0,
+        "startTurn": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null
+      },
+      "icon": "modules/conditional-visibility/icons/ae/shadow_11.jpg",
+      "label": "See invisible (CV)",
+      "origin": "Item.9lFZbFDeSg0mG8kY",
+      "tint": null,
+      "transfer": false,
+      "flags": {
+        "core": {
+          "overlay": false
+        },
+        "isConvenient": true,
+        "convenientDescription": "For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.",
+        "dae": {
+          "stackable": false,
+          "specialDuration": [],
+          "transfer": true
+        },
+        "isCustomConvenient": true
+      }
+    },
+    {
+      "_id": "Sk4liJzxfgPo1eZf",
+      "changes": [
+        {
+          "key": "system.attributes.senses.tremorsense",
+          "mode": 4,
+          "value": "data.attributes.senses.tremorsense",
+          "priority": 5
+        },
+        {
+          "key": "ATCV.tremorsense",
+          "mode": 0,
+          "value": "0",
+          "priority": 5
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47264274102,
+        "startRound": 0,
+        "startTurn": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null
+      },
+      "icon": "modules/conditional-visibility/icons/ae/ice_15.jpg",
+      "label": "Tremor Sense (CV)",
+      "origin": "Item.9lFZbFDeSg0mG8kY",
+      "tint": null,
+      "transfer": false,
+      "flags": {
+        "core": {
+          "overlay": false
+        },
+        "isConvenient": true,
+        "convenientDescription": "A monster with tremorsense can detect and pinpoint the origin of vibrations within a specific radius, provided that the monster and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures. Many burrowing creatures, such as ankhegs and umber hulks, have this special sense.",
+        "dae": {
+          "stackable": false,
+          "specialDuration": [],
+          "transfer": true
+        },
+        "isCustomConvenient": true
+      }
+    },
+    {
+      "_id": "GC63ix2nhGwt2TmD",
+      "changes": [
+        {
+          "key": "system.attributes.senses.truesight",
+          "mode": 4,
+          "value": "data.attributes.senses.truesight",
+          "priority": 5
+        },
+        {
+          "key": "ATCV.truesight",
+          "mode": 0,
+          "value": "0",
+          "priority": 5
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47264274102,
+        "startRound": 0,
+        "startTurn": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null
+      },
+      "icon": "modules/conditional-visibility/icons/ae/emerald_11.jpg",
+      "label": "True Sight (CV)",
+      "origin": "Item.9lFZbFDeSg0mG8kY",
+      "tint": null,
+      "transfer": false,
+      "flags": {
+        "core": {
+          "overlay": false
+        },
+        "isConvenient": true,
+        "convenientDescription": "A monster with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the monster can see into the Ethereal Plane within the same range.",
+        "dae": {
+          "stackable": false,
+          "specialDuration": [],
+          "transfer": true
+        },
+        "isCustomConvenient": true
+      }
+    },
+    {
+      "_id": "SY14sRVXjRrGX4Mz",
+      "changes": [
+        {
+          "key": "ATCV.hidden",
+          "mode": 0,
+          "value": "0",
+          "priority": 5
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startRound": 4,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startTurn": null
+      },
+      "icon": "modules/conditional-visibility/icons/hidden.jpg",
+      "label": "Hidden (CV)",
+      "origin": "Item.9lFZbFDeSg0mG8kY",
+      "tint": null,
+      "transfer": true,
+      "flags": {
+        "core": {
+          "statusId": "Convenient Effect: Hidden",
+          "overlay": false
+        },
+        "isConvenient": true,
+        "convenientDescription": "This sense is used from the module 'Conditional Visibility'",
+        "dae": {},
+        "isCustomConvenient": true
+      }
+    },
+    {
+      "_id": "DChBWBWQUQncPFKi",
+      "changes": [
+        {
+          "key": "ATCV.invisible",
+          "mode": 0,
+          "value": "0",
+          "priority": 5
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startRound": 4,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startTurn": null
+      },
+      "icon": "modules/conditional-visibility/icons/invisible.jpg",
+      "label": "Invisible (CV)",
+      "origin": "Item.9lFZbFDeSg0mG8kY",
+      "tint": null,
+      "transfer": true,
+      "flags": {
+        "core": {
+          "statusId": "Convenient Effect: Invisible",
+          "overlay": false
+        },
+        "isConvenient": true,
+        "convenientDescription": "This sense is used from the module 'Conditional Visibility'",
+        "dae": {},
+        "isCustomConvenient": true
+      }
+    },
+    {
+      "_id": "IeiyVmu8ytQUi7Wc",
+      "changes": [
+        {
+          "key": "ATCV.obscured",
+          "mode": 0,
+          "value": "0",
+          "priority": 5
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startRound": 4,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startTurn": null
+      },
+      "icon": "modules/conditional-visibility/icons/obscured.jpg",
+      "label": "Obscured (CV)",
+      "origin": "Item.9lFZbFDeSg0mG8kY",
+      "tint": null,
+      "transfer": true,
+      "flags": {
+        "core": {
+          "statusId": "Convenient Effect: Obscured",
+          "overlay": false
+        },
+        "isConvenient": true,
+        "convenientDescription": "This sense is used from the module 'Conditional Visibility'",
+        "dae": {},
+        "isCustomConvenient": true
+      }
+    },
+    {
+      "_id": "kyRKS2kylcniEzjg",
+      "changes": [
+        {
+          "key": "ATCV.indarkness",
+          "mode": 0,
+          "value": "0",
+          "priority": 5
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startRound": 4,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startTurn": null
+      },
+      "icon": "modules/conditional-visibility/icons/indarkness.jpg",
+      "label": "In Darkness (CV)",
+      "origin": "Item.9lFZbFDeSg0mG8kY",
+      "tint": null,
+      "transfer": true,
+      "flags": {
+        "core": {
+          "statusId": "Convenient Effect: In Darkness",
+          "overlay": false
+        },
+        "isConvenient": true,
+        "convenientDescription": "This sense is used from the module 'Conditional Visibility'",
+        "dae": {},
+        "isCustomConvenient": true
+      }
+    },
+    {
+      "changes": [
+        {
+          "key": "flags.midi-qol.optional.PontodePresença.attack.all",
+          "mode": 2,
+          "value": "floor(@prof/2)",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.optional.PontodePresença.save.all",
+          "mode": 2,
+          "value": "floor(@prof/2)",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.optional.PontodePresença.check.all",
+          "mode": 2,
+          "value": "floor(@prof/2)",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.optional.PontodePresença.label",
+          "mode": 5,
+          "value": "Ponto de Presença",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.optional.PontodePresença.skill.all",
+          "mode": 2,
+          "value": "floor(@prof/2)",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "rounds": 0,
+        "seconds": null,
+        "startRound": null,
+        "startTime": 47245370801,
+        "startTurn": null,
+        "turns": null,
+        "combat": null
+      },
+      "flags": {
+        "core": {
+          "statusId": "Convenient Effect: Ponto de Presença"
+        },
+        "dfreds-convenient-effects": {
+          "description": "",
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        },
+        "times-up": {
+          "isPassive": false
+        },
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "noneName",
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": [
+            "None"
+          ]
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "radius": "undefined",
+          "alignment": "",
+          "type": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false
+        },
+        "babonus": {
+          "bonuses": {}
+        }
+      },
+      "icon": "icons/skills/social/diplomacy-unity-alliance.webp",
+      "label": "Ponto de Presença",
+      "origin": "Item.9lFZbFDeSg0mG8kY",
+      "transfer": false,
+      "_id": "axMmrMPGgGduNjhS",
+      "tint": null
+    },
+    {
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "rounds": 100,
+        "seconds": 600,
+        "startRound": null,
+        "startTime": 47245370801,
+        "startTurn": null,
+        "turns": null,
+        "combat": null
+      },
+      "flags": {
+        "core": {
+          "statusId": "Convenient Effect: Bardic Inspiration"
+        },
+        "dfreds-convenient-effects": {
+          "description": "Add a dice to a single ability check, attack roll, or saving throw in the next 10 minutes",
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [
+            "Bardic Inspiration (d6)",
+            "Bardic Inspiration (d8)",
+            "Bardic Inspiration (d10)",
+            "Bardic Inspiration (d12)"
+          ],
+          "subEffects": []
+        },
+        "times-up": {
+          "isPassive": false
+        }
+      },
+      "icon": "icons/skills/melee/unarmed-punch-fist.webp",
+      "label": "Bardic Inspiration",
+      "origin": null,
+      "transfer": false,
+      "_id": "D8aRd5QIYMgTmgad",
+      "tint": null
+    },
+    {
+      "changes": [
+        {
+          "key": "flags.midi-qol.optional.MarcadaPresença.attack.all",
+          "mode": 2,
+          "value": "+0",
+          "priority": 20
+        },
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": 20
+        },
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": 20
+        },
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": 20
+        },
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": 20
+        },
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "rounds": 0,
+        "seconds": null,
+        "startRound": null,
+        "startTime": 47245370801,
+        "startTurn": null,
+        "turns": null,
+        "combat": null
+      },
+      "flags": {
+        "core": {
+          "statusId": "Convenient Effect: New Effect"
+        },
+        "dfreds-convenient-effects": {
+          "description": "",
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        },
+        "times-up": {
+          "isPassive": false
+        },
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "none",
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "radius": "undefined",
+          "alignment": "",
+          "type": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false
+        },
+        "babonus": {
+          "bonuses": {
+            "UCT134UzmEQVlYNq": {
+              "name": "Ponto de Presença",
+              "description": "teste",
+              "bonuses": {
+                "bonus": "floor(@prof/2)",
+                "criticalRange": "",
+                "fumbleRange": ""
+              },
+              "id": "UCT134UzmEQVlYNq",
+              "type": "attack",
+              "filters": {
+                "itemRequirements": {
+                  "equipped": null,
+                  "attuned": null
+                },
+                "arbitraryComparison": [],
+                "statusEffects": [],
+                "targetEffects": [],
+                "creatureTypes": {
+                  "needed": [],
+                  "unfit": []
+                },
+                "customScripts": null,
+                "remainingSpellSlots": {
+                  "min": null,
+                  "max": null
+                },
+                "itemTypes": [],
+                "attackTypes": [],
+                "damageTypes": [],
+                "abilities": [],
+                "spellComponents": {
+                  "types": [],
+                  "match": null
+                },
+                "spellLevels": [],
+                "spellSchools": [],
+                "baseWeapons": [],
+                "weaponProperties": {
+                  "needed": [],
+                  "unfit": []
+                }
+              },
+              "enabled": true,
+              "itemOnly": false,
+              "optional": true,
+              "consume": {
+                "enabled": false,
+                "type": null,
+                "scales": false,
+                "formula": "",
+                "value": {
+                  "min": null,
+                  "max": null
+                }
+              },
+              "aura": {
+                "enabled": false,
+                "isTemplate": false,
+                "range": null,
+                "self": true,
+                "disposition": 2,
+                "blockers": []
+              }
+            }
+          }
+        }
+      },
+      "icon": "icons/skills/social/diplomacy-unity-alliance.webp",
+      "label": "Marca da Presença",
+      "origin": "Item.9lFZbFDeSg0mG8kY",
+      "transfer": false,
+      "_id": "ZngCRC9bodq8sOpm",
+      "tint": null
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.9lFZbFDeSg0mG8kY"
+    },
+    "exportSource": {
+      "world": "samsara",
+      "system": "dnd5e",
+      "coreVersion": "10.291",
+      "systemVersion": "2.1.5"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": null,
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "potion"
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": null,
+    "modifiedTime": 1677788158401,
+    "lastModifiedBy": "jopO8GXF1o1iks99"
+  }
+}
