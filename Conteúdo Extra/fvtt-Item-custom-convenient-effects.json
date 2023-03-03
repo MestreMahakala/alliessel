@@ -566,7 +566,7 @@
         }
       },
       "icon": "icons/skills/social/diplomacy-unity-alliance.webp",
-      "label": "Ponto de Presença",
+      "label": "Marca da Presença",
       "origin": "Item.9lFZbFDeSg0mG8kY",
       "transfer": false,
       "_id": "axMmrMPGgGduNjhS",
@@ -698,7 +698,7 @@
     "systemVersion": "2.1.5",
     "coreVersion": "10.291",
     "createdTime": null,
-    "modifiedTime": 1677815983736,
+    "modifiedTime": 1677818791370,
     "lastModifiedBy": "jopO8GXF1o1iks99"
   }
 }
