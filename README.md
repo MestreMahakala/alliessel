@@ -38,14 +38,14 @@ Feito isso, é para tudo funcionar normalmente.
 
 ## Demonstração das automatizações das marcas
 
-### **Marca da Agilidade**
+### **Marca da Agilidade.**
 
-
+Está sendo adicionado os 10 feet de movimento sempre que a marca é equipada no personagem.
 
 https://user-images.githubusercontent.com/126827994/222637521-65984eff-3302-4059-8225-0bf70e4d374c.mp4
 
 
-### **Marca da presença.**
+### **Marca da Presença.**
 
 É possível adicionar o ponto de presença aos jogadores. Porém, é preciso se atentar aos seguintes pontos:
 
@@ -56,6 +56,18 @@ https://user-images.githubusercontent.com/126827994/222636117-cbacbf89-f515-4ebd
 
 
 
+### **Marca do Colosso.**
+
+A marca do colosso está adicionando 1d4 no dado dos ataques corpo-a-corpo. O vídeo abaixo não está muito bom ou claro, mas é o que ficará por enquanto.
+
+https://user-images.githubusercontent.com/126827994/222638830-f1ec0262-58db-4fd0-b7d9-83da4be0acec.mp4
+
+### **Marca do Vigor.**
+
+A marca do Vigor está adicionando +1 de vida igual o nível do personagem equipado.
+
+
+https://user-images.githubusercontent.com/126827994/222639234-aff8e570-b4fd-4a98-be30-0c6fd038bc0c.mp4
 
 
 
