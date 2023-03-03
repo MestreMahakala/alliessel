@@ -24,6 +24,8 @@ A única exceção é a Marca da Presença que precisa do módulo "DFreds Conven
 
 Para usar a marca da Presença são necessários os módulos: "MID QOL", "DFreds Convenient Effects" e "Dynamic effects using Active Effects".
 Basicamente ative esses três módulos e, ao abrir a configuração do MID QOL, vá em workflow e na parte "Workflow", vá nas configurações "Specials" e deixe conforme a imagem abaixo.
+
+
 ![MID QOL](https://user-images.githubusercontent.com/126827994/222627701-c6e0936b-e280-48a0-9dd2-2b890370e45b.png)
 ![Midi-Qol Configurtion (workflow)](https://user-images.githubusercontent.com/126827994/222627726-20a8c280-e9d6-4954-97b3-5127922df3c9.png)
 ![Configuração MID QOL](https://user-images.githubusercontent.com/126827994/222627738-cb06a3c0-9081-4ab3-b2c7-1db21874d4d0.png)
