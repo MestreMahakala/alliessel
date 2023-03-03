@@ -38,14 +38,14 @@ Feito isso, é para tudo funcionar normalmente.
 
 ## Demonstração das automatizações das marcas
 
-**Marca da Agilidade**
+### **Marca da Agilidade**
 
 
 
 https://user-images.githubusercontent.com/126827994/222637521-65984eff-3302-4059-8225-0bf70e4d374c.mp4
 
 
-**Marca da presença.**
+### **Marca da presença.**
 
 É possível adicionar o ponto de presença aos jogadores. Porém, é preciso se atentar aos seguintes pontos:
 
