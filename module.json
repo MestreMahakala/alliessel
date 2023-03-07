@@ -2,13 +2,14 @@
   "id": "alliessel",
   "title": "Recursos Alliessel",
   "description": "Um módulo feito para a comunidade Alliessel com a finalidade de otimizar e melhorar a experiência de mestres e jogadores. Qualquer problema, falar com Eduardo Mahakala.",
-  "version": "1.0.2",
+  "version": "1.1.2",
   "authors": [
     {
-    "name": "Mestre Mahakala"
+      "name": "Mestre Mahakala",
+      "flags": {}
     }
-    ],
-   "packs": [
+  ],
+  "packs": [
     {
       "name": "marcas-de-alliessel",
       "label": "Marcas de Alliessel",
@@ -17,7 +18,16 @@
       "system": "dnd5e",
       "private": false,
       "flags": {}
-     }    
+    },
+    {
+      "label": "Classes Revisitadas",
+      "type": "Item",
+      "name": "classes-revisitadas",
+      "path": "packs/classes-revisitadas.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}      
+    }
   ],
   "relationships": {
     "systems": [
@@ -43,16 +53,16 @@
       {
         "id": "dae",
         "type": "module",
-        "compatibility":{}
+        "compatibility": {}
       }
-    ] 
+    ]
   },
-    "compatibility": {
-      "minimum": "10.286",
-      "verified": "10.291",
-      "maximum": "10"
-    },
-    "url": "https://github.com/MestreMahakala/alliessel",
-    "manifest": "https://raw.githubusercontent.com/MestreMahakala/alliessel/main/module.json",
-    "download": "https://github.com/MestreMahakala/alliessel/archive/refs/heads/main.zip"
+  "compatibility": {
+    "minimum": "10.286",
+    "verified": "10.291",
+    "maximum": "10"
+  },
+  "url": "https://github.com/MestreMahakala/alliessel",
+  "manifest": "https://raw.githubusercontent.com/MestreMahakala/alliessel/main/module.json",
+  "download": "https://github.com/MestreMahakala/alliessel/archive/refs/heads/main.zip"
 }

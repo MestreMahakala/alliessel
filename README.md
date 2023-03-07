@@ -1,8 +1,11 @@
-# alliessel 1.0.2
+# alliessel 1.1.2
 Modulo de Recursos para jogadores e mestres de Alliessel.
 
 manifest link: 
 https://raw.githubusercontent.com/MestreMahakala/alliessel/main/module.json
+
+
+A partir de agora comecei a incluir as Classes Revisitadas.
 
 ## Marcas de Alliessel
 Essa primeira versão do modulo traz as marcas da comunidade otimizando seus efeitos mais importantes e diminuindo os erros de preenchimento das fichas, além de poupar trabalho dos jogadores e mestres.
