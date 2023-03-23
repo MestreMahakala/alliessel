@@ -1,4 +1,4 @@
-# alliessel 1.1.5
+# alliessel 1.1.6
 Modulo de Recursos para jogadores e mestres de Alliessel.
 
 manifest link: 
