@@ -54,6 +54,11 @@
         "id": "compendium-folders",
         "type": "module",
         "compatibility":{}
+      },
+      {
+        "id": "babonus",
+        "type": "module"
+        "compatibility": {}
       }
     ]
   },
