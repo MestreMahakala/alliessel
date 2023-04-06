@@ -102,7 +102,7 @@
         "dae": {
           "selfTarget": false,
           "selfTargetAlways": false,
-          "stackable": "noneName",
+          "stackable": "multi",
           "durationExpression": "",
           "macroRepeat": "none",
           "specialDuration": [
@@ -283,71 +283,6 @@
           "isConvenient": true,
           "isDynamic": false,
           "isViewable": true,
-          "nestedEffects": [
-            "Ponto de Presença (prof 2-3)",
-            "Ponto de Presença (prof 4-5)",
-            "Ponto de Presença (prof 6)"
-          ],
-          "subEffects": []
-        },
-        "times-up": {
-          "isPassive": false
-        },
-        "dae": {
-          "selfTarget": false,
-          "selfTargetAlways": false,
-          "stackable": "noneName",
-          "durationExpression": "",
-          "macroRepeat": "none",
-          "specialDuration": [
-            "None"
-          ]
-        },
-        "ActiveAuras": {
-          "isAura": false,
-          "aura": "None",
-          "radius": "undefined",
-          "alignment": "",
-          "type": "",
-          "ignoreSelf": false,
-          "height": false,
-          "hidden": false,
-          "displayTemp": false,
-          "hostile": false,
-          "onlyOnce": false
-        },
-        "babonus": {
-          "bonuses": {}
-        }
-      },
-      "icon": "icons/skills/social/diplomacy-unity-alliance.webp",
-      "label": "Marca da Presença",
-      "origin": "Item.9lFZbFDeSg0mG8kY",
-      "transfer": false,
-      "_id": "edTym13wlObPfdxK",
-      "tint": null
-    },
-    {
-      "changes": [],
-      "disabled": false,
-      "duration": {
-        "rounds": 0,
-        "seconds": null,
-        "startRound": null,
-        "startTime": 47245370801,
-        "startTurn": null,
-        "turns": null,
-        "combat": null
-      },
-      "flags": {
-        "core": {
-          "statusId": "Convenient Effect: Ponto de Presença"
-        },
-        "dfreds-convenient-effects": {
-          "description": "",
-          "isConvenient": true,
-          "isDynamic": false,
-          "isViewable": true,
           "nestedEffects": [],
           "subEffects": []
         },
@@ -357,7 +292,7 @@
         "dae": {
           "selfTarget": false,
           "selfTargetAlways": false,
-          "stackable": "noneName",
+          "stackable": "count",
           "durationExpression": "",
           "macroRepeat": "none",
           "specialDuration": [
@@ -547,7 +482,7 @@
         "dae": {
           "selfTarget": false,
           "selfTargetAlways": false,
-          "stackable": "noneName",
+          "stackable": "multi",
           "durationExpression": "",
           "macroRepeat": "none",
           "specialDuration": [
@@ -706,6 +641,71 @@
       "transfer": false,
       "_id": "r2bbLIv0xPjGLsE5",
       "tint": null
+    },
+    {
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "rounds": 0,
+        "seconds": null,
+        "startRound": null,
+        "startTime": 47245370801,
+        "startTurn": null,
+        "turns": null,
+        "combat": null
+      },
+      "flags": {
+        "core": {
+          "statusId": "Convenient Effect: Ponto de Presença"
+        },
+        "dfreds-convenient-effects": {
+          "description": "",
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [
+            "Ponto de Presença (prof 2-3)",
+            "Ponto de Presença (prof 4-5)",
+            "Ponto de Presença (prof 6)"
+          ],
+          "subEffects": []
+        },
+        "times-up": {
+          "isPassive": false
+        },
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "noneName",
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": [
+            "None"
+          ]
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "radius": "undefined",
+          "alignment": "",
+          "type": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false
+        },
+        "babonus": {
+          "bonuses": {}
+        }
+      },
+      "icon": "icons/skills/social/diplomacy-unity-alliance.webp",
+      "label": "Marca da Presença",
+      "origin": "Item.9lFZbFDeSg0mG8kY",
+      "transfer": false,
+      "_id": "edTym13wlObPfdxK",
+      "tint": null
     }
   ],
   "flags": {
@@ -725,7 +725,7 @@
     "systemVersion": "2.1.5",
     "coreVersion": "10.291",
     "createdTime": null,
-    "modifiedTime": 1679556246179,
+    "modifiedTime": 1679932689832,
     "lastModifiedBy": "jopO8GXF1o1iks99"
   }
 }
