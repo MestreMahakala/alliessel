@@ -65,6 +65,18 @@
         "compatibility":{}
       },
       {
+        "id": "token-attacher",
+        "manifest": "https://raw.githubusercontent.com/KayelGee/token-attacher/master/module.json",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
+        "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
         "id": "babonus",
         "type": "module",
         "compatibility":{}
