@@ -28,6 +28,8 @@
       "value": "",
       "units": ""
     },
+    "cover": null,
+    "crewed": false,
     "target": {
       "value": null,
       "width": null,
@@ -128,7 +130,7 @@
               "name": "Ponto de presença",
               "description": "Aliados que começaram o combate a até 30 pés do detentor da marca da presença recebem um \"Ponto de Presença\". Esse ponto pode ser gasto para adicionar metade do BP do detentor da marca (arredondado para baixo) em rolagens de d20 (declarado antes de rolar).",
               "bonuses": {
-                "bonus": "2",
+                "bonus": "3",
                 "deathSaveTargetValue": "",
                 "deathSaveCritical": ""
               },
@@ -182,17 +184,13 @@
               "enabled": true
             },
             "3SFjeufQJp6iqUrh": {
-              "name": "Ponto de Presença",
-              "description": "Aliados que começaram o combate a até 30 pés do detentor da marca da presença recebem um \"Ponto de Presença\". Esse ponto pode ser gasto para adicionar metade do BP do detentor da marca (arredondado para baixo) em rolagens de d20 (declarado antes de rolar).",
-              "bonuses": {
-                "bonus": "2",
-                "criticalRange": "",
-                "fumbleRange": ""
-              },
               "id": "3SFjeufQJp6iqUrh",
+              "name": "Ponto de Presença",
               "type": "attack",
+              "enabled": true,
               "itemOnly": false,
               "optional": true,
+              "description": "Aliados que começaram o combate a até 30 pés do detentor da marca da presença recebem um \"Ponto de Presença\". Esse ponto pode ser gasto para adicionar metade do BP do detentor da marca (arredondado para baixo) em rolagens de d20 (declarado antes de rolar).",
               "consume": {
                 "enabled": true,
                 "type": "effect",
@@ -200,7 +198,8 @@
                 "formula": "",
                 "value": {
                   "min": null,
-                  "max": null
+                  "max": null,
+                  "step": null
                 }
               },
               "aura": {
@@ -209,58 +208,123 @@
                 "range": null,
                 "self": true,
                 "disposition": 2,
-                "blockers": []
+                "blockers": null
               },
-              "filters": {
-                "itemRequirements": {
-                  "equipped": null,
-                  "attuned": null
-                },
-                "arbitraryComparison": [],
-                "statusEffects": [],
-                "targetEffects": [],
-                "creatureTypes": {
-                  "needed": [],
-                  "unfit": []
-                },
-                "customScripts": null,
-                "preparationModes": [],
-                "tokenSizes": {
-                  "size": null,
-                  "type": null,
-                  "self": null
-                },
-                "remainingSpellSlots": {
+              "bonuses": {
+                "bonus": "3"
+              },
+              "filters": {}
+            },
+            "IR71qCmfwZoBCn2R": {
+              "id": "IR71qCmfwZoBCn2R",
+              "name": "Ponto de presença",
+              "type": "test",
+              "enabled": true,
+              "itemOnly": false,
+              "optional": true,
+              "description": "Aliados que começaram o combate a até 30 pés do detentor da marca da presença recebem um \"Ponto de Presença\". Esse ponto pode ser gasto para adicionar metade do BP do detentor da marca (arredondado para baixo) em rolagens de d20 (declarado antes de rolar).",
+              "consume": {
+                "enabled": true,
+                "type": "effect",
+                "scales": false,
+                "formula": null,
+                "value": {
                   "min": null,
-                  "max": null
-                },
-                "itemTypes": [],
-                "attackTypes": [],
-                "damageTypes": [],
-                "abilities": [],
-                "spellComponents": {
-                  "types": [],
-                  "match": null
-                },
-                "spellLevels": [],
-                "spellSchools": [],
-                "baseWeapons": [],
-                "weaponProperties": {
-                  "needed": [],
-                  "unfit": []
+                  "max": null,
+                  "step": null
                 }
               },
-              "enabled": true
+              "aura": {
+                "enabled": true,
+                "isTemplate": false,
+                "range": null,
+                "self": true,
+                "disposition": 2,
+                "blockers": null
+              },
+              "bonuses": {
+                "bonus": "3"
+              },
+              "filters": {}
             }
           }
         }
       },
       "icon": "icons/skills/social/diplomacy-unity-alliance.webp",
-      "label": "Ponto de Presença (prof 4-5)",
       "origin": "Item.9lFZbFDeSg0mG8kY",
       "transfer": false,
-      "_id": "axMmrMPGgGduNjhS",
-      "tint": null
+      "_id": "r2bbLIv0xPjGLsE5",
+      "tint": null,
+      "name": "Ponto de Presença (prof 6)",
+      "description": "",
+      "statuses": []
+    },
+    {
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "rounds": 0,
+        "seconds": null,
+        "startRound": null,
+        "startTime": 47245370801,
+        "startTurn": null,
+        "turns": null,
+        "combat": null
+      },
+      "flags": {
+        "core": {
+          "statusId": "Convenient Effect: Ponto de Presença"
+        },
+        "dfreds-convenient-effects": {
+          "description": "",
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [
+            "Ponto de Presença (prof 2-3)",
+            "Ponto de Presença (prof 4-5)",
+            "Ponto de Presença (prof 6)"
+          ],
+          "subEffects": []
+        },
+        "times-up": {
+          "isPassive": false
+        },
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "noneName",
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": [
+            "None"
+          ]
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "radius": "undefined",
+          "alignment": "",
+          "type": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false
+        },
+        "babonus": {
+          "bonuses": {}
+        }
+      },
+      "icon": "icons/skills/social/diplomacy-unity-alliance.webp",
+      "origin": "Item.9lFZbFDeSg0mG8kY",
+      "transfer": false,
+      "_id": "edTym13wlObPfdxK",
+      "tint": null,
+      "name": "Marca da Presença",
+      "description": "",
+      "statuses": []
     },
     {
       "changes": [],
@@ -441,16 +505,50 @@
                 "disposition": 2,
                 "blockers": []
               }
+            },
+            "twP8MR2fF61DJ5WT": {
+              "id": "twP8MR2fF61DJ5WT",
+              "name": "Ponto de presença",
+              "type": "test",
+              "enabled": true,
+              "itemOnly": false,
+              "optional": true,
+              "description": "Aliados que começaram o combate a até 30 pés do detentor da marca da presença recebem um \"Ponto de Presença\". Esse ponto pode ser gasto para adicionar metade do BP do detentor da marca (arredondado para baixo) em rolagens de d20 (declarado antes de rolar).",
+              "consume": {
+                "enabled": true,
+                "type": "effect",
+                "scales": false,
+                "formula": null,
+                "value": {
+                  "min": null,
+                  "max": null,
+                  "step": null
+                }
+              },
+              "aura": {
+                "enabled": true,
+                "isTemplate": false,
+                "range": null,
+                "self": true,
+                "disposition": 2,
+                "blockers": null
+              },
+              "bonuses": {
+                "bonus": "1"
+              },
+              "filters": {}
             }
           }
         }
       },
       "icon": "icons/skills/social/diplomacy-unity-alliance.webp",
-      "label": "Ponto de Presença (prof 2-3)",
       "origin": "Item.9lFZbFDeSg0mG8kY",
       "transfer": false,
-      "_id": "PZ6cWKkLcM1n782Z",
-      "tint": null
+      "_id": "qIqxV6ZLp0R4KmPi",
+      "tint": null,
+      "name": "Ponto de Presença (prof 2-3)",
+      "description": "",
+      "statuses": []
     },
     {
       "changes": [],
@@ -508,7 +606,7 @@
               "name": "Ponto de presença",
               "description": "Aliados que começaram o combate a até 30 pés do detentor da marca da presença recebem um \"Ponto de Presença\". Esse ponto pode ser gasto para adicionar metade do BP do detentor da marca (arredondado para baixo) em rolagens de d20 (declarado antes de rolar).",
               "bonuses": {
-                "bonus": "3",
+                "bonus": "2",
                 "deathSaveTargetValue": "",
                 "deathSaveCritical": ""
               },
@@ -520,10 +618,11 @@
                 "enabled": true,
                 "type": "effect",
                 "scales": false,
-                "formula": "",
+                "formula": null,
                 "value": {
                   "min": null,
-                  "max": null
+                  "max": null,
+                  "step": null
                 }
               },
               "aura": {
@@ -562,17 +661,13 @@
               "enabled": true
             },
             "3SFjeufQJp6iqUrh": {
-              "name": "Ponto de Presença",
-              "description": "Aliados que começaram o combate a até 30 pés do detentor da marca da presença recebem um \"Ponto de Presença\". Esse ponto pode ser gasto para adicionar metade do BP do detentor da marca (arredondado para baixo) em rolagens de d20 (declarado antes de rolar).",
-              "bonuses": {
-                "bonus": "3",
-                "criticalRange": "",
-                "fumbleRange": ""
-              },
               "id": "3SFjeufQJp6iqUrh",
+              "name": "Ponto de Presença",
               "type": "attack",
+              "enabled": true,
               "itemOnly": false,
               "optional": true,
+              "description": "Aliados que começaram o combate a até 30 pés do detentor da marca da presença recebem um \"Ponto de Presença\". Esse ponto pode ser gasto para adicionar metade do BP do detentor da marca (arredondado para baixo) em rolagens de d20 (declarado antes de rolar).",
               "consume": {
                 "enabled": true,
                 "type": "effect",
@@ -580,7 +675,8 @@
                 "formula": "",
                 "value": {
                   "min": null,
-                  "max": null
+                  "max": null,
+                  "step": null
                 }
               },
               "aura": {
@@ -589,125 +685,59 @@
                 "range": null,
                 "self": true,
                 "disposition": 2,
-                "blockers": []
+                "blockers": null
               },
-              "filters": {
-                "itemRequirements": {
-                  "equipped": null,
-                  "attuned": null
-                },
-                "arbitraryComparison": [],
-                "statusEffects": [],
-                "targetEffects": [],
-                "creatureTypes": {
-                  "needed": [],
-                  "unfit": []
-                },
-                "customScripts": null,
-                "preparationModes": [],
-                "tokenSizes": {
-                  "size": null,
-                  "type": null,
-                  "self": null
-                },
-                "remainingSpellSlots": {
+              "bonuses": {
+                "bonus": "2"
+              },
+              "filters": {}
+            },
+            "Hsz0xshCPbsLspbK": {
+              "id": "Hsz0xshCPbsLspbK",
+              "name": "Ponto de presença",
+              "type": "test",
+              "enabled": true,
+              "itemOnly": false,
+              "optional": true,
+              "description": "Aliados que começaram o combate a até 30 pés do detentor da marca da presença recebem um \"Ponto de Presença\". Esse ponto pode ser gasto para adicionar metade do BP do detentor da marca (arredondado para baixo) em rolagens de d20 (declarado antes de rolar).",
+              "consume": {
+                "enabled": true,
+                "type": "effect",
+                "scales": false,
+                "formula": null,
+                "value": {
                   "min": null,
-                  "max": null
-                },
-                "itemTypes": [],
-                "attackTypes": [],
-                "damageTypes": [],
-                "abilities": [],
-                "spellComponents": {
-                  "types": [],
-                  "match": null
-                },
-                "spellLevels": [],
-                "spellSchools": [],
-                "baseWeapons": [],
-                "weaponProperties": {
-                  "needed": [],
-                  "unfit": []
+                  "max": null,
+                  "step": null
                 }
               },
-              "enabled": true
+              "aura": {
+                "enabled": true,
+                "isTemplate": false,
+                "range": null,
+                "self": true,
+                "disposition": 2,
+                "blockers": null
+              },
+              "bonuses": {
+                "bonus": "2"
+              },
+              "filters": {}
             }
           }
         }
       },
       "icon": "icons/skills/social/diplomacy-unity-alliance.webp",
-      "label": "Ponto de Presença (prof 6)",
       "origin": "Item.9lFZbFDeSg0mG8kY",
       "transfer": false,
-      "_id": "r2bbLIv0xPjGLsE5",
-      "tint": null
-    },
-    {
-      "changes": [],
-      "disabled": false,
-      "duration": {
-        "rounds": 0,
-        "seconds": null,
-        "startRound": null,
-        "startTime": 47245370801,
-        "startTurn": null,
-        "turns": null,
-        "combat": null
-      },
-      "flags": {
-        "core": {
-          "statusId": "Convenient Effect: Ponto de Presença"
-        },
-        "dfreds-convenient-effects": {
-          "description": "",
-          "isConvenient": true,
-          "isDynamic": false,
-          "isViewable": true,
-          "nestedEffects": [
-            "Ponto de Presença (prof 2-3)",
-            "Ponto de Presença (prof 4-5)",
-            "Ponto de Presença (prof 6)"
-          ],
-          "subEffects": []
-        },
-        "times-up": {
-          "isPassive": false
-        },
-        "dae": {
-          "selfTarget": false,
-          "selfTargetAlways": false,
-          "stackable": "noneName",
-          "durationExpression": "",
-          "macroRepeat": "none",
-          "specialDuration": [
-            "None"
-          ]
-        },
-        "ActiveAuras": {
-          "isAura": false,
-          "aura": "None",
-          "radius": "undefined",
-          "alignment": "",
-          "type": "",
-          "ignoreSelf": false,
-          "height": false,
-          "hidden": false,
-          "displayTemp": false,
-          "hostile": false,
-          "onlyOnce": false
-        },
-        "babonus": {
-          "bonuses": {}
-        }
-      },
-      "icon": "icons/skills/social/diplomacy-unity-alliance.webp",
-      "label": "Marca da Presença",
-      "origin": "Item.9lFZbFDeSg0mG8kY",
-      "transfer": false,
-      "_id": "edTym13wlObPfdxK",
-      "tint": null
+      "_id": "yOjxh7iyAIApQJzo",
+      "tint": null,
+      "name": "Ponto de Presença (prof 4-5)",
+      "description": "",
+      "statuses": []
     }
   ],
+  "folder": null,
   "flags": {
     "scene-packer": {
       "sourceId": "Item.HTe0xT9cIqPNNdYq",
@@ -716,16 +746,16 @@
     "exportSource": {
       "world": "samsara",
       "system": "dnd5e",
-      "coreVersion": "10.291",
-      "systemVersion": "2.1.5"
+      "coreVersion": "11.302",
+      "systemVersion": "2.2.1"
     }
   },
   "_stats": {
     "systemId": "dnd5e",
-    "systemVersion": "2.1.5",
-    "coreVersion": "10.291",
-    "createdTime": null,
-    "modifiedTime": 1679932689832,
+    "systemVersion": "2.2.1",
+    "coreVersion": "11.302",
+    "createdTime": 1687977578097,
+    "modifiedTime": 1687978241227,
     "lastModifiedBy": "jopO8GXF1o1iks99"
   }
 }
