@@ -2,7 +2,7 @@
   "id": "alliessel",
   "title": "Recursos Alliessel",
   "description": "Um módulo feito para a comunidade Alliessel com a finalidade de otimizar e melhorar a experiência de mestres e jogadores. Qualquer problema, falar com Eduardo Mahakala.",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "authors": [
     {
       "name": "Mestre Mahakala",
@@ -60,11 +60,6 @@
         "compatibility": {}
       },
       {
-        "id": "compendium-folders",
-        "type": "module",
-        "compatibility":{}
-      },
-      {
         "id": "token-attacher",
         "manifest": "https://raw.githubusercontent.com/KayelGee/token-attacher/master/module.json",
         "type": "module",
@@ -84,9 +79,9 @@
     ]
   },
   "compatibility": {
-    "minimum": "10.286",
-    "verified": "10.291",
-    "maximum": "10"
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11.302"
   },
   "url": "https://github.com/MestreMahakala/alliessel",
   "manifest": "https://raw.githubusercontent.com/MestreMahakala/alliessel/main/module.json",
