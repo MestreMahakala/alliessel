@@ -44,7 +44,7 @@
         "id": "dnd5e",
         "type": "system",
         "compatibility": {
-          "minimum": "2.0.3"
+          "minimum": "2.2.1"
         }
       }
     ],
@@ -79,8 +79,8 @@
     ]
   },
   "compatibility": {
-    "minimum": "11",
-    "verified": "11",
+    "minimum": "11.302",
+    "verified": "11.302",
     "maximum": "11.302"
   },
   "url": "https://github.com/MestreMahakala/alliessel",
