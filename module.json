@@ -81,7 +81,7 @@
   "compatibility": {
     "minimum": "11.302",
     "verified": "11.302",
-    "maximum": "11.304"
+    "maximum": "11.305"
   },
   "url": "https://github.com/MestreMahakala/alliessel",
   "manifest": "https://raw.githubusercontent.com/MestreMahakala/alliessel/main/module.json",
